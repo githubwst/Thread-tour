@@ -26,6 +26,7 @@ public class RightWayStopThreadProd2 implements Runnable {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
+            System.out.println(Thread.currentThread().isInterrupted());
             Thread.currentThread().interrupt();
             e.printStackTrace();
         }

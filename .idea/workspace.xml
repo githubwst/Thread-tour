@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bef4d24-c410-44bb-bf3b-fa31c3b92ab2" name="Default Changelist" comment="" />
+    <list default="true" id="8bef4d24-c410-44bb-bf3b-fa31c3b92ab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/Storage2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/Storage3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCCollections/StorageIterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCTools/CountLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCTools/CyclicBarrierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCTools/ExchangerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCTools/SemophoreTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/JUCTools/SemophoreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/META-INF/Thread.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/sixstates/NewRunnableTerminated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/sixstates/NewRunnableTerminated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/stopthreads/RightWayStopThreadProd2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/stopthreads/RightWayStopThreadProd2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/stopthreads/RightWayStopThreadWithSleepEveryLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/stopthreads/RightWayStopThreadWithSleepEveryLoop.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +48,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SeXZsjuYnHjIm5xnLpBKGyW3Fd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -59,13 +82,13 @@
       <recent name="F:\workspace(Java)\Thread\src\threadcoreknowledge\stopthreads\volatiledemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumer">
-    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.JUCTools.ExchangerTest" />
+  <component name="RunManager" selected="Application.RightWayStopThreadWithSleepEveryLoop">
+    <configuration name="BlockedWaitingTimedWaiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.sixstates.BlockedWaitingTimedWaiting" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.JUCTools.*" />
+          <option name="PATTERN" value="threadcoreknowledge.sixstates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.JUCCollections.ProducerConsumer" />
+    <configuration name="BothRunnableThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.createthreads.BothRunnableThread" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.JUCCollections.*" />
+          <option name="PATTERN" value="threadcoreknowledge.createthreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUCCollections.ProducerConsumer2" />
+    <configuration name="NewRunnableTerminated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.sixstates.NewRunnableTerminated" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.JUCCollections.*" />
+          <option name="PATTERN" value="threadcoreknowledge.sixstates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockPrintOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectclasscommonmethods.ReentrantLockPrintOddEven" />
+    <configuration name="RightWayStopThreadProd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.stopthreads.RightWayStopThreadProd2" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectclasscommonmethods.*" />
+          <option name="PATTERN" value="threadcoreknowledge.stopthreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemophoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.JUCTools.SemophoreTest" />
+    <configuration name="RightWayStopThreadWithSleepEveryLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.stopthreads.RightWayStopThreadWithSleepEveryLoop" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.JUCTools.*" />
+          <option name="PATTERN" value="threadcoreknowledge.stopthreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.ProducerConsumer2" />
-        <item itemvalue="Application.ExchangerTest" />
-        <item itemvalue="Application.ReentrantLockPrintOddEven" />
-        <item itemvalue="Application.SemophoreTest" />
+        <item itemvalue="Application.RightWayStopThreadWithSleepEveryLoop" />
+        <item itemvalue="Application.RightWayStopThreadProd2" />
+        <item itemvalue="Application.BlockedWaitingTimedWaiting" />
+        <item itemvalue="Application.NewRunnableTerminated" />
+        <item itemvalue="Application.BothRunnableThread" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +209,7 @@
       <workItem from="1581321813823" duration="9918000" />
       <workItem from="1581384484142" duration="1710000" />
       <workItem from="1589895346531" duration="875000" />
+      <workItem from="1589977070982" duration="4744000" />
     </task>
     <servers />
   </component>
@@ -193,43 +217,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1788" y="-48" key="#Inspections" timestamp="1581330324684">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
-    </state>
-    <state x="-1788" y="-48" key="#Inspections/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581330324684" />
-    <state x="-1519" y="17" key="#com.intellij.ide.util.MemberChooser" timestamp="1581330010742">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
-    </state>
-    <state x="-1519" y="17" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581330010742" />
     <state x="-1550" y="75" key="FileChooserDialogImpl" timestamp="1581387633860">
       <screen x="-2560" y="-323" width="2560" height="1400" />
     </state>
     <state x="-1550" y="75" key="FileChooserDialogImpl/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581387633860" />
-    <state width="2507" height="620" key="GridCell.Tab.0.bottom" timestamp="1581346239783">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1589982976204">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2507" height="620" key="GridCell.Tab.0.bottom/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581346239783" />
-    <state width="2507" height="620" key="GridCell.Tab.0.center" timestamp="1581346239782">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589982976204" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1589982976203">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2507" height="620" key="GridCell.Tab.0.center/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581346239782" />
-    <state width="2507" height="620" key="GridCell.Tab.0.left" timestamp="1581346239782">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589982976203" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1589982976203">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2507" height="620" key="GridCell.Tab.0.left/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581346239782" />
-    <state width="2507" height="620" key="GridCell.Tab.0.right" timestamp="1581346239783">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589982976203" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1589982976203">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2507" height="620" key="GridCell.Tab.0.right/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581346239783" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589982976203" />
     <state x="115" y="0" key="SettingsEditor" timestamp="1589895605574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-1892" y="-65" key="SettingsEditor/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581321836134" />
     <state x="115" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589895605574" />
-    <state x="-1648" y="159" key="com.intellij.ide.util.TipDialog" timestamp="1581384488356">
-      <screen x="-2560" y="-323" width="2560" height="1400" />
+    <state x="487" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1589977076787">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1648" y="159" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581384488355" />
+    <state x="487" y="251" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589977076787" />
     <state x="-2022" y="-103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581345047483">
       <screen x="-2560" y="-323" width="2560" height="1400" />
     </state>
@@ -237,7 +257,6 @@
     <state x="458" y="160" width="672" height="538" key="search.everywhere.popup" timestamp="1589895457875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-1701" y="-15" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728/-2560.-323.2560.1400@-2560.-323.2560.1400" timestamp="1581324908614" />
     <state x="458" y="160" width="672" height="538" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589895457875" />
   </component>
   <component name="XDebuggerManager">

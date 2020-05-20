@@ -17,6 +17,7 @@ public class RightWayStopThreadWithSleepEveryLoop {
                    try {
                        Thread.sleep(10);
                    } catch (InterruptedException e) {
+                       Thread.currentThread().interrupt();
                        e.printStackTrace();
                    }
                }

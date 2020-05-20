@@ -14,10 +14,12 @@ public class NewRunnableTerminated implements Runnable{
         thread.start();
         System.out.println(thread.getState());
         try {
+            thread.join();
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         System.out.println(thread.getState());
 
     }
